@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.image-container {
+  background-image: url("style/images/head.jpg");
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Travelling</title>
+</head>
+<body>
+
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+
+<div class="topnav" id="myTopnav">
+                <a class="nav__link" href="first.html">Головна сторінка</a>
+                <a class="nav__link" href="Як обр.html">Місце відпочинку</a>
+                <a class="nav__link" href="#" data-scroll="#blog">Документи</a>
+                <a class="nav__link" href="Tur.html" data-scroll="#works">Туризм в Україні</a>
+                <a class="nav__link" href="Adv.html" data-scroll="#footer">Поради для туристів</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="page">
+
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+			<div class="image-container">
+  <div class="text">
+                Подорожі
+				</div>
+				</div>
+            </div>
+        </div>
+
+</div>
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section__header">
+			<hr>
+                <h2 class="section__title">Які документи необхідно мати для перетину кордону</h2>
+                <div class="section__text">
+                    <p>Передчуття відпустки, збір валіз, планування екскурсій - не менше приємні моменти, ніж сам відпочинок на курорті. Але щоб канікули за кордоном пройшли відмінно, важливо знати які документи потрібні для подорожі.</p>
+                </div>
+				<hr>
+            </div>
+			        <div style="padding: 60px" class="works">
+            <div class="works__col">
+                <div class="works__item2">
+                    <img class="works__image" src="style/images/d1.png" alt="Картинка">
+                    <div class="works__info">
+                    </div>
+                </div>
+                <div class="works__item2">
+                    <img class="works__image" src="style/images/d2.jpeg" alt="Картинка">
+                    <div class="works__info">
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item2">
+                    <img class="works__image" src="style/images/d3.jpeg" alt="Картинка">
+                    <div class="works__info">
+                    </div>
+                </div>
+                <div class="works__item2">
+                    <img class="works__image" src="style/images/d5.jpg" alt="Картинка">
+                    <div class="works__info">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+		<div class="space">
+		</div>
+		<hr>
+    
+			<div class="section__header">
+			<hr>
+                <h2 style="font-size: 28px">Які документи необхідно мати для перетину кордону</h2>
+                <div class="section__text">
+                    <p>Більше 80 держав мають з Україною безвізовий режим. Оскільки найбільш відвідувані з них - європейські, розглянемо детальніше які документи потрібні для подорожі по Європі:</p>
+                </div>
+				
+				<div class="tab">
+  <button style="font-family: 'Pacifico', cursive;" class="tablinks" onmouseover="openCity(event, 'bezviz')">Безвізові країни</button>
+  <button style="font-family: 'Pacifico', cursive;" class="tablinks" onmouseover="openCity(event, 'viz')">Візові країни</button>
+  <button style="font-family: 'Pacifico', cursive;" class="tablinks" onmouseover="openCity(event, 'zdit')">Мандрівникам з дітьми</button>
+</div>
+
+<div id="bezviz" class="tabcontent">
+  <h3 style="padding: 10px">Безвізові країни</h3>
+  <ul>
+	<li>Обов'язково! Біометричний закордонний паспорт (паспорт з чіпом, на який записані фото, підпис і відбитки пальців даної людини) або звичайний паспорт з візою</li>
+	<p></p>
+	<li> Бронювання проживання або запрошення, якщо ви збираєтеся зупинитися у родичів або друзів</li>
+	<p></p>
+	<li>Зворотній квиток (якщо ви подорожуєте на автомобілі, це не є вимогою)</li>
+	<p></p>
+	<li>Маршрут або план вашої поїздки</li>
+	<p></p>
+	<li>Кредитка або виписка з банку про наявність грошових коштів (для перестраховки)</li>
+	<p></p>
+	<li>Туристична страховка</li>
+	<p></p>
+	<li>Медичний страховий поліс</li>
+	</ul>
+  </div>
+
+<div id="viz" class="tabcontent">
+  <h3 style="padding: 10px">Візові країни</h3>
+  <ul>
+    <li>Дозвіл на в'їзд</li>
+	<p></p>
+    <li>Закордонний паспорт або звичайний паспорт з візою</li>
+	<p></p>
+	<li> Бронювання проживання або запрошення, якщо ви збираєтеся зупинитися у родичів або друзів</li>
+	<p></p>
+	<li>Зворотній квиток</li>
+	<p></p>
+	<li>Маршрут або план вашої поїздки</li>
+	<p></p>
+	<li>Офіційне підтвердження мети візиту</li>
+	<p></p>
+	<li>Туристична страховка</li>
+	<p></p>
+	<li>Медична страховку</li>
+	</ul>
+</div>
+
+<div id="zdit" class="tabcontent">
+  <h3 style="padding: 10px">Мандрівникам з дітьми</h3>
+  <ul>
+	<li>Біометричний паспорт (окремо виготовляється дітям до 18 років)</li>
+	<p></p>
+	<p></p>
+	<li>Свідоцтво про народження. Його можуть не перевіряти, але про всяк випадок майте при собі</li>
+	<p></p>
+	<p></p>
+	<li>Дозвіл на виїзд з України від батька або матері, якщо дитина їде тільки з одним з батьків, або ж від обох, в разі поїздки неповнолітньої з друзями, родичами сім'ї, тренером або викладачем</li>
+	<p></p>
+	</ul>
+  </div>
+
+<div class="clearfix"></div>
+<hr>
+<div class="container">
+ <div class="works">
+            <div class="works__col">
+                <div class="works__item2">
+                    <img class="works__image" src="style/images/doc1.jpg" alt="Картинка">
+                    <div class="works__info">
+                    </div>
+                </div>
+                <div class="works__item2">
+                    <img class="works__image" src="style/images/doc2.jpg" alt="Картинка">
+                    <div class="works__info">
+                    </div>
+                </div>
+            </div>
+
+            <div class="works__col">
+                <div class="works__item2">
+                    <img class="works__image" src="style/images/doc4.jpg" alt="Картинка">
+                    <div class="works__info">
+                    </div>
+                </div>
+               <div class="works__item2">
+                    <img class="works__image" src="style/images/doc3.jpeg" alt="Картинка">
+                    <div class="works__info">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+				
+				<hr>
+            </div> 
+			</div>
+    </section>
+	<div style="background-image: url(style/images/head.jpg); background-size: cover" class="footer">
+	<p style="padding-bottom: 10px">Подорожі</p>
+	</div>
+<script>
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
+
